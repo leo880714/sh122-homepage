@@ -1,0 +1,52 @@
+/* .container__Canvas {
+    background: rgba(0, 0, 0, .5);
+    padding: 0;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+
+    width:70%;
+    height: 60vh;
+}  */
+
+.parallax {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    border-radius: 2rem;
+    border: 1px solid transparent;
+
+    width:100%;
+    height: 80%;
+}
+
+.canvas__card {
+    filter: grayscale(60%); 
+    opacity: .7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.canvas__card:hover {
+    opacity: 1;
+    filter: none;
+}
+
+.canvas__img {
+    width: 100%;
+    height: auto;
+}
+
+.canvas__card h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    font-family: 'Alex Brush', cursive;
+
+    color:white;
+    opacity: 1.5;
+    filter: none;
+}

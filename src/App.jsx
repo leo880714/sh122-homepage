@@ -1,12 +1,10 @@
 import React from "react"
+import { Route, Routes } from "react-router-dom";
 import AnimatedCursor from "react-animated-cursor";
-import Header from "./components/Header"
-import Nav from "./components/Nav"
-import About from "./components/About"
-// import Experience from "./components/Experience"
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
-import Canvas from "./components/Canvas"
+import Navbar from "./components/Navbar"
+import Home from "./components/Home"
+import Projects from "./components/Projects"
+import Posts from "./components/Posts"
 
 function Cursor() {
   return (
@@ -26,14 +24,13 @@ function Cursor() {
 function App() {
   return (
       <>   
+        <Navbar />
         {Cursor() }
-        <Header />
-        <Nav />
-        <About />
-        <Canvas /> 
-        {/* <Experience /> */}
-        <Contact />
-        <Footer />
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/projects" element={<Projects />}/>
+          <Route path="/posts" element={<Posts />}/>
+        </Routes>
       </>
   );
 }

@@ -41,8 +41,8 @@ function Header() {
 
                 <motion.div className="container imgs__container" ref={constraintsRef}>
                     <motion.img
-                        initial={{x: _x[0], y: _y[0]}}
-                        animate={{x: _x[0], y: _y[0]}}
+                        initial={{opacity: 0, x: _x[0], y: _y[0]}}
+                        animate={click>1 ? {opacity: 1, x: _x[0], y: _y[0]} : {x: _x[0], y: _y[0]}}
                         transition={{
                             ease: "linear",
                             duration: 1.5
@@ -57,8 +57,8 @@ function Header() {
                     />
 
                     <motion.img   
-                        initial={{x: _x[1], y: _y[1]}}   
-                        animate={{x: _x[1], y: _y[1]}}
+                        initial={{opacity: 0, x: _x[1], y: _y[1]}}  
+                        animate={click>1 ? {opacity: 1, x: _x[1], y: _y[1]} : {x: _x[1], y: _y[1]}}
                         transition={{
                             ease: "linear",
                             duration: 1.5
@@ -72,8 +72,8 @@ function Header() {
                     />
 
                     <motion.img    
-                        initial={{x: _x[2], y: _y[2]}}   
-                        animate={{x: _x[2], y: _y[2]}}
+                        initial={{opacity: 0, x: _x[2], y: _y[2]}}   
+                        animate={click>1 ? {opacity: 1, x: _x[2], y: _y[2]} : {x: _x[2], y: _y[2]}}
                         transition={{
                             ease: "linear",
                             duration: 1.5
@@ -88,8 +88,8 @@ function Header() {
                     />
 
                     <motion.img   
-                        initial={{x: _x[3], y: _y[3]}}   
-                        animate={{x: _x[3], y: _y[3]}}
+                        initial={{opacity: 0, x: _x[3], y: _y[3]}}   
+                        animate={click>1 ? {opacity: 1, x: _x[3], y: _y[3]} : {x: _x[3], y: _y[3]}}
                         transition={{
                             ease: "linear",
                             duration: 1.5
@@ -103,8 +103,8 @@ function Header() {
                     />
 
                     <motion.img   
-                        initial={{x: _x[4], y: _y[4]}}   
-                        animate={{x: _x[4], y: _y[4]}}
+                        initial={{opacity: 0, x: _x[4], y: _y[4]}}   
+                        animate={click>1 ? {opacity: 1, x: _x[4], y: _y[4]} : {x: _x[4], y: _y[4]}}
                         transition={{
                             ease: "linear",
                             duration: 1.5
@@ -118,8 +118,8 @@ function Header() {
                     />
 
                     <motion.img
-                        initial={{x: _x[5], y: _y[5]}}   
-                        animate={{x: _x[5], y: _y[5]}}
+                        initial={{opacity: 0, x: _x[5], y: _y[5]}}   
+                        animate={click>1 ? {opacity:1, x: _x[5], y: _y[5]} : {x: _x[5], y: _y[5]}}
                         transition={{
                             ease: "linear",
                             duration: 1.5

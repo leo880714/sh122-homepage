@@ -32,3 +32,21 @@
     background: rgba(0, 0, 0, 0);
 }
 
+/* ================== Media Query (medium devices) ==================== */
+
+@media screen and (max-width: 1024px) {
+    
+
+}
+/* ================== Media Query (small devices) ==================== */
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar a{
+        font-size: 1rem;
+    }
+}

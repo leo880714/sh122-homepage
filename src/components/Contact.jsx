@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "../style/contact.css"
 import {MdEmail} from "react-icons/md"
 import {BsLinkedin, BsGithub} from "react-icons/bs"
@@ -33,9 +34,9 @@ function Contact() {
 
                 <div className="righthandBox">
                     <h3>Get Know More about Me</h3>
-                    <h4><a href="!#">Projects</a></h4>
-                    <h4><a href="!#">Posts</a></h4>
-                    <h4><a href="!#">Blog</a></h4>
+                    <h4><Link to="/projects">Projects</Link></h4>
+                    <h4><Link to="/posts">Posts</Link></h4>
+                    <h4><a href="https://medium.com/@leo3590581" target="_blank" rel="noreferrer">Blog</a></h4>
                 </div>
             </div>
         </section>

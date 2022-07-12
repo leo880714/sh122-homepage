@@ -124,11 +124,11 @@ h1, h5, p {
     }
 
     .header__socials {
-        left:-2rem;
+        left:2rem;
     }
 
     .scroll__down{
-        right: -3.8rem;
+        right: .7rem;
     }
 
     .floating__icons {

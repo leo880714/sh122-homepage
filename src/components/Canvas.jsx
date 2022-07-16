@@ -22,7 +22,7 @@ function Canvas() {
     return (
         <section id="canvas">
             <h5>Not Yet Done</h5>
-            <h2>Know More about Me</h2>
+            <h2>Know More About Me</h2>
 
             <div className="container canvas__container">
                 <ParallaxMousemove>

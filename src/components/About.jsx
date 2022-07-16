@@ -32,7 +32,7 @@ function About() {
                             <FaUser className="about__icon"/>
                             <h5>Location</h5>
                             <div>
-                                <small>Based in Taiwan</small>
+                                <small>Based in Kaohsiung, Taiwan</small>
                                 <small>Currently in Houston, Tx</small>
                             </div>
                         </article>
@@ -45,14 +45,14 @@ function About() {
                     </div>
 
                     <p>
-                        Hi friends, I am Shu Chuan Hsu. You could also call me Leo. I am now studying my master degree in 
-                        computer science. Based from Taiwan and now move in Houston, I enjoy embracing the customs from different 
-                        cultures and learning to make fun of. Traveling around is always my favorite.
+                    Hi friends, I am Shu Chuan Hsu. You could also call me Leo. I am now studying for my master's degree in computer 
+                    science. Based in Taiwan and now moving to Houston, I enjoy embracing the customs of different cultures and learning 
+                    to live with them. Traveling around is always my favorite.
                     </p>
 
                     <p>
-                        As a student majoring in CS, I am equipped with solid knowledge of computer scince and experience regarding 
-                        software engineering. If you like to cooperate with me or do cool projects,  please don't hesitate to contact me.
+                    As a student majoring in CS, I am equipped with solid knowledge of computer science and experience in software 
+                    engineering. If you like to cooperate with me or do cool projects, please don't hesitate to contact me.
                     </p>
                     <CTA />
                     {/* <a href="#contact" className="btn btn-primary">Let's Talk</a> */}

@@ -115,6 +115,7 @@
     text-align: left;
 }
 
+/* ================== Media Query (small devices) ==================== */
 @media screen and (max-width: 1024px) {
     .text__container > h1 {
         font-size: 1.5rem;
@@ -160,6 +161,7 @@
         grid-template-columns: 1fr;
         margin-bottom: 15rem;
     }
+
 }  
 
 /* ================== Media Query (small devices) ==================== */
@@ -206,5 +208,9 @@
         width: 6rem;
         left: 0%;
         padding-top: 42%;
+    }
+
+    .foo {
+        color: black;
     }
 }  

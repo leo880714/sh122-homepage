@@ -185,6 +185,10 @@
 /* ================== Media Query (small devices) ==================== */
 
 @media screen and (max-width: 600px) {
+    .canvas__container {    
+        border-radius: .5rem;
+    }
+
     .grid-container{
         transform: translate3d(-45%, 5%, 0);
     }

@@ -148,14 +148,14 @@ function Projects() {
 
                 <div className="container__project">
                         <div className="project__card">
-                                <a href="https://www.google.com/" target="_blank" rel="noreferrer"><img className="img__card" src={web} alt="personal website"></img></a>
+                                <a href="https://github.com/leo880714/sh122-homepage" target="_blank" rel="noreferrer"><img className="img__card" src={web} alt="personal website"></img></a>
                                 <Link to="/" ><h3>Personal Portfolio Website</h3></Link>
                                 <p> 
-                                The website you are current looking to. Here, I render several techniques, using react as my backbone and 
-                                incorporating html, css, js, parrallax effect... Wish you enjoy this web project.
+                                    The website you are currently looking at. Here, I render several techniques, using react as my backbone 
+                                    and incorporating HTML, CSS, js, parallax effect... Wish you enjoy this web project.
                                 </p>
                                 <div className="link_card">
-                                    <a className="links" href="https://www.google.com/" target="_blank" rel="noreferrer"> <BsGithub /></a>
+                                    <a className="links" href="https://github.com/leo880714/sh122-homepage" target="_blank" rel="noreferrer"> <BsGithub /></a>
                                 </div>
                                 
                         </div>
@@ -164,7 +164,7 @@ function Projects() {
                         <a href="https://github.com/aiiu-lab/StyleDNA" target="_blank" rel="noreferrer"><img className="img__card" src={styleDNA} alt="styleDNA"></img></a>
                                 <a href="https://github.com/aiiu-lab/StyleDNA" target="_blank" rel="noreferrer"><h3>StyleDNA</h3></a>
                                 <p> 
-                                High-fidelity kinship face synthesis receives increasing interests of this technology for visual kinship 
+                                High-fidelity kinship face synthesis receives increasing interest for visual kinship 
                                 applications, including law enforcement, social media analysis, finding lost children, etc. In this project, 
                                 we leverage the pretrained state-of-the-art face synthesis model, StyleGAN2, to assist the synthesis. This project 
                                 also got accepted by <a href="http://iab-rubric.org/fg2021/" target="_blank" rel="noreferrer">IEEE International Conference on Automatic Face and Gesture Recognition 2021 </a>.
@@ -180,12 +180,11 @@ function Projects() {
                         <a href="https://github.com/michael5107414/CV_project" target="_blank" rel="noreferrer"><img className="img__card" src={videoframes} alt="videoframes"></img></a>
                                 <a href="https://github.com/michael5107414/CV_project" target="_blank" rel="noreferrer"><h3>Video Frames Interpolation</h3></a>
                                 <p> 
-                                We conducted this project with <a href="https://www.mediatek.com/" target="_blank" rel="noreferrer">MediaTek</a>
-                                . We designed a video interpolation pipeline and utilized techniques based on both deep-learning based and 
-                                non deep learning based solution. This projects also rewarded Awarded Second Prize in the final project competition held by the Department
+                                We designed a video interpolation pipeline and utilized techniques based on both deep-learning-based and non-deep-learning-based solutions. 
+                                This projects also rewarded Second Prize in the final project competition held by the Department
                                 of <a href="https://web.ee.ntu.edu.tw/eng/index.php" target="_blank" rel="noreferrer"> Electrical Engineering
                                 </a> at <a href="https://www.ntu.edu.tw/english/index.html" target="_blank" rel="noreferrer"> Nation Taiwan University </a>
-                                competition associated with MediaTek among 15 teams
+                                competition associated with <a href="https://www.mediatek.com/" target="_blank" rel="noreferrer">MediaTek</a> among 15 teams
                                 </p>
                                 <div className="link_card">
                                     <a className="links" href="https://github.com/michael5107414/CV_project" target="_blank" rel="noreferrer"> <BsGithub /></a>
@@ -196,10 +195,11 @@ function Projects() {
                         <a href="http://www.me.ntu.edu.tw/epaper/20200630/News_Photo_Content_n_44379_s_64996.html" target="_blank" rel="noreferrer"><img className="img__card" src={autocar} alt="personal website"></img></a>
                                 <a href="http://www.me.ntu.edu.tw/capstone/" target="_blank" rel="noreferrer"><h3>Automatic Car Competition</h3></a>
                                 <p> 
-                                We designed and implemented and autonomous car which is capable of detecting other cars on the track, 
-                                sidestepping and cutting off cars through any track in the final competition. In the final exam copetition held 
-                                by the Department of <a href="http://www.me.ntu.edu.tw/main.php?site_id=1" target="_blank" rel="noreferrer">Mechanicla Engineering </a>
-                                at Nation Taiwan University, out team awarded First Prize in final project competition among 150 participants. 
+                                We designed and implemented an autonomous car that is capable of detecting other cars on the track, sidestepping
+                                and cutting off cars through any track in the final competition. In the final exam copetition held  by 
+                                the Department of  <a href="http://www.me.ntu.edu.tw/main.php?site_id=1" target="_blank" rel="noreferrer">
+                                Mechanicla Engineering </a> at Nation Taiwan University, out team awarded First Prize in final project 
+                                competition among 150 participants. 
                                 </p>
                         </div>
                     </div>

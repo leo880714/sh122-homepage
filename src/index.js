@@ -4,11 +4,8 @@ import { BrowserRouter } from 'react-router-dom';
 import App from "./App"
 import "./style/index.css"
 
-//ReactDOM.render(<App />, document.getElementById("root"))
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  // <App />
   <React.StrictMode>
     <BrowserRouter>
       <App />

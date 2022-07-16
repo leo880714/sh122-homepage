@@ -10,7 +10,6 @@ function Posts() {
         const dateTime = new Date().getTime();
         var currentTimeStamp =  Math.floor(dateTime / 1000);
         axios.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40leo3590581?t='+ currentTimeStamp).then(res => {
-            //data = es.data.items;
             setData(res.data.items)
         })
     }

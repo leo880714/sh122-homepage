@@ -203,8 +203,6 @@ function Projects() {
                                 </p>
                         </div>
                     </div>
-                {/* <Experience /> */}
- 
             </section>
             
             <section>

@@ -34,10 +34,6 @@
 
 /* ================== Media Query (medium devices) ==================== */
 
-@media screen and (max-width: 1024px) {
-    
-
-}
 /* ================== Media Query (small devices) ==================== */
 
 @media screen and (max-width: 600px) {

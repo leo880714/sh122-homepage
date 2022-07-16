@@ -1,5 +1,4 @@
 .container__header {
-    /* background: rgba(0,0,0,.2); */
     width: 100%;
     padding-top: 5rem;
     padding-bottom: 10rem;
@@ -23,7 +22,7 @@
     width: 5rem;
 }
 
-.c__ {
+.c {
     left: 0%;
 }
 

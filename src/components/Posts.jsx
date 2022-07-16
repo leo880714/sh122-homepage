@@ -7,9 +7,9 @@ function Posts() {
     var [data, setData] = useState(null)
 
     function getCurrentPosts() {
-        const dateTime = new Date().getTime();
-        var currentTimeStamp =  Math.floor(dateTime / 1000);
-        axios.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40leo3590581?t='+ currentTimeStamp).then(res => {
+        // const dateTime = new Date().getTime();
+        // var currentTimeStamp =  Math.floor(dateTime / 1000);
+        axios.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40leo3590581&api_key=ppvfq9mwaenftmxqifuwikgnv8sygeznswyvop6k').then(res => {
             setData(res.data.items)
         })
     }

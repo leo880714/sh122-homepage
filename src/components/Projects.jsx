@@ -4,7 +4,7 @@ import "../style/projects.css"
 
 import Footer from "./Footer"
 import ParallaxMousemove from "react-parallax-mousemove"
-import c__ from "../assets/icons/c++.png"
+import c from "../assets/icons/c.png"
 import python from "../assets/icons/python.png"
 import matlab from "../assets/icons/matlab.png"
 import go from "../assets/icons/go.png"
@@ -50,7 +50,7 @@ function Projects() {
                                     damping: 100
                                 }
                                 }}>
-                                    <img className="parallax__img c__" src={c__} alt="c++"></img>
+                                    <img className="parallax__img c" src={c} alt="c++"></img>
                                 </ParallaxMousemove.Layer>
 
                                 <ParallaxMousemove.Layer layerStyle={style.infoLayerStyle} config={{

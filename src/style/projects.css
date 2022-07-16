@@ -128,9 +128,9 @@
     }
 
     .parallax__img {
-        width: 4rem;
+        width: 3rem;
     }
-    .c__ {
+    .c {
         left: 0%;
         padding-top: 2%;
     }
@@ -151,7 +151,7 @@
     }
     
     .js {
-        width: 8rem;
+        width: 6rem;
         left: 0%;
         padding-top: 12%;
     }
@@ -176,14 +176,14 @@
     }
 
     .parallax__img {
-        width: 3rem;
+        width: 2rem;
     }
 
     .img__card {
         border-radius: 1rem;
     }
 
-    .c__ {
+    .c {
         left: 0%;
         padding-top: 5%;
     }
@@ -195,7 +195,7 @@
     
     .matlab {
         left: 60%;
-        padding-top: 18%;
+        padding-top: 38%;
     }
     
     .go {
@@ -204,12 +204,8 @@
     }
     
     .js {
-        width: 6rem;
+        width: 4rem;
         left: 0%;
-        padding-top: 42%;
-    }
-
-    .foo {
-        color: black;
+        padding-top: 47%;
     }
 }  

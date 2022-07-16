@@ -122,7 +122,7 @@ function Projects() {
 
                                 <ParallaxMousemove.Layer layerStyle={style.infoLayerStyle} config={{
                                 xFactor: -0.24,
-                                yFactor: -0.7,
+                                yFactor: -0.4,
                                 springSettings: {
                                     stiffness: 50,
                                     damping: 100

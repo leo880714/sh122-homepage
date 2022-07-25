@@ -23,7 +23,7 @@ function Contact() {
                     </div>
 
                     <div className="contact__info">
-                        <a href="mailto:leo3590581@gmail.com" className="contact-icon"><MdEmail/></a>
+                        <a href="mailto:leohsu714@gmail.com" className="contact-icon"><MdEmail/></a>
                         <a href="https://www.linkedin.com/in/shu-chuan-hsu-8b76651a8/" target="_blank" rel="noreferrer"> <BsLinkedin /> </a>
                         <a href="https://github.com/leo880714" target="_blank" rel="noreferrer"> <BsGithub /> </a>
                         <a href="https://api.whatsapp.com/send?phone=972370236" target="_blank" rel="noreferrer"> <RiWhatsappFill /> </a>

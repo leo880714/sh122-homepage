@@ -24,7 +24,7 @@ function About() {
                             <h5> Education</h5>
                             <div> 
                                 <small>Master of Computer Science @ Rice University </small> 
-                                <small>Bachelor of Mechanical Engineering @ Nation Taiwan University </small> 
+                                <small>Bachelor of Mechanical Engineering @ National Taiwan University </small> 
                             </div>
                         </article>
 
@@ -33,7 +33,7 @@ function About() {
                             <h5>Location</h5>
                             <div>
                                 <small>Based in Kaohsiung, Taiwan</small>
-                                <small>Currently in Houston, Tx</small>
+                                <small>Currently in Houston, TX</small>
                             </div>
                         </article>
 
